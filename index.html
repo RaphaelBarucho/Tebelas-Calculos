@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pamonha.com</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Tabela e Calculos</h1>
+    </header>
+
+    <section>
+        <div id="div1">
+            <form return="false" id="formulario" onsubmit="adicionar(event)">
+            <p id="paragrafo-01">Numero (entre 1 a 100): <input type="number" id="input-numeros"> <button type="submit" id="enviar">Adicionar</button></p> 
+            </form>
+        </div>
+
+        <div id="div2">
+            <select id="tabelaselect" size="5">
+            </select>
+            <div id="div3">
+                <button onclick="finalizar()" id="botao-finalizar">Obter Resultados</button>
+                <button onclick="resetar()" id="botao-resetar">Resetar</button>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <P>&copy; Raphael Barucho</P>
+    </footer>
+</body>
+</html>
